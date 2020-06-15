@@ -8,7 +8,7 @@ function Header() {
         <div className="Header-wrapper">
             <img
                 className="home-image"
-                src="./images/andres-pizza.png"
+                src="./images/dough.png"
                 alt="Hello Header"
             />
          
