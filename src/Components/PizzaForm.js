@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import * as yup from "yup";
 import axios from "axios";
-// import './styles/form.css'
 
 
 /// Validate Pizza Form through Yup
@@ -109,7 +108,7 @@ export const PizzaForm = () =>{
                 })
                 .catch(err => {
                     // this is where we could create a server error in the form!
-                    setServerError("oops! something happened!");
+                    setServerError("Something went wrong!");
                 });
         };
 

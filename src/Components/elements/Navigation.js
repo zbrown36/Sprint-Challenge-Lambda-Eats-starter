@@ -1,6 +1,5 @@
 import React from 'react'
 import { Route, Link, Switch } from "react-router-dom";
-import Header from './Header'
 
 
 export const Navigation = () =>{
@@ -14,7 +13,7 @@ export const Navigation = () =>{
                 <Link to="/order-pizza">Order Pizzza</Link>
             </div>
         </nav>
-        <Header />
+        
         </>
     )
     }
